@@ -68,7 +68,8 @@ def generate_launch_description():
     )
 
     extended_bridge = Node( package='ros_gz_bridge', name="extended_gazebo_bridge", executable='parameter_bridge', 
-    arguments=['/model/krytn/odometry@nav_msgs/msg/Odometry[gz.msgs.Odometry',
+    arguments=['/model/krytn/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist',
+                   '/model/krytn/odometry@nav_msgs/msg/Odometry[gz.msgs.Odometry',
                    '/model/krytn/tf@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V',
 
                    '/lidar@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan',
