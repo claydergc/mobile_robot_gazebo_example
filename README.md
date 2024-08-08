@@ -13,6 +13,7 @@ In the terminal, type: colcon build to build, and wait for it to load.
 Next, type: source ./install/setup.bash
 Finally, type: ros2 launch mobile_robot_gazebo_example gazebo.launch.py and wait for it to load.
 ################################################################################################
+
 Pasos de ejecucion:
 1) Iniciar sesión en: https://www.theconstruct.ai/ o caso de no contar con una cuenta podría registrarse
 2) Una vez iniciado sesión:
